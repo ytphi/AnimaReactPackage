@@ -3,13 +3,14 @@
   "homepage": "https://yutong5376.github.io/AnimaReactPackage",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
   },
   "dependencies": {
     "firebase": "^9.6.4",
     "parcel-bundler": "^1.12.4",
+    "push-dir": "^0.4.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "5.2.0",
