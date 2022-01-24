@@ -1,0 +1,9 @@
+.lammappv2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 2114px;
+  overflow: hidden;
+  width: 428px;
+}
+

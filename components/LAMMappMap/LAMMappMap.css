@@ -1,0 +1,9 @@
+.lammapp-map {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 4055px;
+  overflow: hidden;
+  width: 428px;
+}
+
